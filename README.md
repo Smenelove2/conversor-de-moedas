@@ -143,21 +143,6 @@ BRL 100 vale: USD 19.16
 - Criar arquivo `requirements.txt`
 - Padronizar nomes e mensagens da interface
 
-## Observações
-
-- O projeto utiliza dados oficiais de moedas baseados no padrão **ISO 4217**
-- Nem todos os pares disponíveis no XML necessariamente possuem cotação disponível na API utilizada
-- A pasta `venv` não deve ser enviada para o GitHub
-
-## Sugestão de `.gitignore`
-
-```gitignore
-venv/
-__pycache__/
-*.pyc
-.streamlit/
-```
-
 ## Autor
 
 Projeto desenvolvido para fins de estudo e prática com:
